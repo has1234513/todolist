@@ -17,7 +17,7 @@ export default {
             title: ''
         }
     },
-    method: {
+    methods : {
         addTodo(e) {
             e.preventDefault();
             const newTodo = {
